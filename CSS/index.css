@@ -124,7 +124,9 @@ li{
 } */
 
 .navbar-list-item:hover a{
-    font-weight: bold; /* Change link weight to bold because the orange was not visible enough */
+     /* Change link weight to bold because the orange was not visible enough */
+    color: white;
+    text-decoration:none;
 }
 
 /* Hamburger menu icon */
@@ -444,6 +446,9 @@ a{
         display: flex;
     }
 
+    .navbar-list-item:hover{
+        background-color: white;
+    }
     .navbar-list-item {
         padding: 10px 0; /* Adjust vertical padding for menu items */
         text-align: center;
